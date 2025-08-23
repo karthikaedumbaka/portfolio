@@ -71,7 +71,7 @@ function handleCommand(cmd, outputLine, afterCallback) {
         if (command === 'yes' || command === 'y') {
             // Download the PDF
             const link = document.createElement('a');
-            link.href = 'https://github.com/karthikaedumbaka/resume_download/raw/main/karthik_Resume_new.pdf';
+            link.href = 'https://github.com/karthikaedumbaka/resume_download/blob/main/Karthik_Resume.pdf';
             link.download = 'karthik_Resume_new.pdf';
             document.body.appendChild(link);
             link.click();
